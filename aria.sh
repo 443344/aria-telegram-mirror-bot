@@ -1,8 +1,8 @@
 #!/bin/bash
 
-## Set the variable below to your Aria password
+## 将下面的变量设置为您的Aria密码
 ARIA_RPC_SECRET="some long key"
-## This is the maximum number of download jobs that will be active at a time. Note that this does not affect the number of concurrent *uploads*
+## 这是一次将处于活动状态的最大下载作业数。 请注意，这不会影响并发*上传*的数量
 MAX_CONCURRENT_DOWNLOADS=5
 ## The port that RPC will listen on
 RPC_LISTEN_PORT=8210
